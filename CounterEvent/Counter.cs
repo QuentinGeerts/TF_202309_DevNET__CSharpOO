@@ -15,10 +15,12 @@
             _value++;
 
             // Vérifier si quelqu'un est abonné à l'événement
-            if (ChangedValue != null) 
-            {
-                ChangedValue(_value);
-            }
+            //if (ChangedValue != null) 
+            //{
+            //    ChangedValue(_value);
+            //}
+
+            ChangedValue?.Invoke(_value);
 
         }
 

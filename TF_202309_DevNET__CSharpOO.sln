@@ -7,11 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationDelegate", "Not
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleDelegate", "ExempleDelegate\ExempleDelegate.csproj", "{07C3500C-FD85-4A6A-89A4-DB310625BBA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompactDiskDelegate", "CompactDiskDelegate\CompactDiskDelegate.csproj", "{12520623-F6DB-4C7B-BDC7-781D93BE1389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompactDiskDelegate", "CompactDiskDelegate\CompactDiskDelegate.csproj", "{12520623-F6DB-4C7B-BDC7-781D93BE1389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterEvent", "CounterEvent\CounterEvent.csproj", "{90DD47B4-FC75-45DE-9C4D-2757D3A90B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterEvent", "CounterEvent\CounterEvent.csproj", "{90DD47B4-FC75-45DE-9C4D-2757D3A90B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerEvent", "EventHandlerEvent\EventHandlerEvent.csproj", "{22729EA8-3AE6-4AEA-806C-4E631556A31E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHandlerEvent", "EventHandlerEvent\EventHandlerEvent.csproj", "{22729EA8-3AE6-4AEA-806C-4E631556A31E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demonstrations", "Demonstrations", "{75FDC9CA-E0E8-427B-A8EC-4AE45C759437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercices", "Exercices", "{783A4479-790D-479A-823A-BD012DE3F2E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionBanqueEvents", "GestionBanqueEvents\GestionBanqueEvents.csproj", "{77D54EB4-9A14-4A29-BF57-3E94BA60F485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionBanqueExceptions", "GestionBanqueExceptions\GestionBanqueExceptions.csproj", "{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +47,26 @@ Global
 		{22729EA8-3AE6-4AEA-806C-4E631556A31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22729EA8-3AE6-4AEA-806C-4E631556A31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22729EA8-3AE6-4AEA-806C-4E631556A31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D54EB4-9A14-4A29-BF57-3E94BA60F485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D54EB4-9A14-4A29-BF57-3E94BA60F485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D54EB4-9A14-4A29-BF57-3E94BA60F485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D54EB4-9A14-4A29-BF57-3E94BA60F485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30E3FFD0-C9D3-4428-B0B5-5C1ED24F80CA} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{07C3500C-FD85-4A6A-89A4-DB310625BBA4} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{12520623-F6DB-4C7B-BDC7-781D93BE1389} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{90DD47B4-FC75-45DE-9C4D-2757D3A90B8E} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{22729EA8-3AE6-4AEA-806C-4E631556A31E} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{77D54EB4-9A14-4A29-BF57-3E94BA60F485} = {783A4479-790D-479A-823A-BD012DE3F2E2}
+		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7} = {783A4479-790D-479A-823A-BD012DE3F2E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70E93D3E-B6A7-4534-A1FA-71B4F98882C7}

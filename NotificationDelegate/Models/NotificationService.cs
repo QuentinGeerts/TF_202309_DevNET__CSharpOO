@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NotificationDelegate.Models
+﻿namespace NotificationDelegate.Models
 {
     // Définition du délégué pour les méthodes de notification
     public delegate void NotificationDelegate(string message);
