@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagerGeneric", "Per
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncActionGeneric", "FuncActionGeneric\FuncActionGeneric.csproj", "{50E0036A-D325-4393-B9C5-35F7637A1A57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionBanqueGeneric", "GestionBanqueGeneric\GestionBanqueGeneric.csproj", "{D55E8F14-332C-4623-8978-7A07B28E4B10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{50E0036A-D325-4393-B9C5-35F7637A1A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E0036A-D325-4393-B9C5-35F7637A1A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E0036A-D325-4393-B9C5-35F7637A1A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55E8F14-332C-4623-8978-7A07B28E4B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55E8F14-332C-4623-8978-7A07B28E4B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55E8F14-332C-4623-8978-7A07B28E4B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55E8F14-332C-4623-8978-7A07B28E4B10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{80F72EBC-B338-4BF1-BBC4-C0FC17F632B7} = {783A4479-790D-479A-823A-BD012DE3F2E2}
 		{BE2E4096-9E8D-48B5-8AE5-293B1391A662} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
 		{50E0036A-D325-4393-B9C5-35F7637A1A57} = {75FDC9CA-E0E8-427B-A8EC-4AE45C759437}
+		{D55E8F14-332C-4623-8978-7A07B28E4B10} = {783A4479-790D-479A-823A-BD012DE3F2E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70E93D3E-B6A7-4534-A1FA-71B4F98882C7}
