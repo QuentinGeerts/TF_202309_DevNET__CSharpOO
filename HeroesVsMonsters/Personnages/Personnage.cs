@@ -11,7 +11,7 @@ namespace HeroesVsMonsters.Personnages
             private set 
             {
                 _pv = value;
-                if (_pv <= 0 && Meurt != null) Meurt(this); // TODO : à revérifier lors de la création du personnage
+                if (_pv <= 0 && Meurt != null) Meurt(this);
             } 
         }
         public int Endurance { get; private set; }
@@ -20,7 +20,11 @@ namespace HeroesVsMonsters.Personnages
         protected De De4 { get; }
         protected De De6 { get; }
 
-        public event Action<Personnage> Meurt; // TODO : à revérifier lors de la création du personnage
+        // Si on devait le faire sans délégué générique
+        // public delegate void personnageMeurtDelegate (Personnage personnage);
+        // public event personnageMeurtDelegate Meurt;
+
+        public event Action<Personnage> Meurt;
 
         public Personnage()
         {
